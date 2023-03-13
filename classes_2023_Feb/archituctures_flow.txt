@@ -1,0 +1,8 @@
+account no: 773491254029
+gmail: khushipoorvik@gmail.com
+password: Narasimha@7207
+user: a
+password: anand@997758
+admin ------ bastion server(jump server) -------- (ec2)application
+enduser ------ dns ----- lb ----- target group ------- ec2 ------ application
+hardware ------ os ------ appliation

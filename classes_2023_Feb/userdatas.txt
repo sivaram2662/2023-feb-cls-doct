@@ -1,0 +1,8 @@
+#!/bin/bash
+amazon-linux-extras install nginx1
+systemctl start nginx
+systemctl enable nginx 
+wget https://www.free-css.com/assets/files/free-css-templates/download/page288/digitalex.zip
+unzip digitalex.zip
+rm -rf digitalex.zip
+cp -r digitalex-html/ /usr/share/nginx/html
