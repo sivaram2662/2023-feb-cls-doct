@@ -1,0 +1,31 @@
+    =================================================================================================================
+    PURPOSE                                           COMMANDS
+    ============================================================================================================
+to build image [command] ---                      docker build -t imagename:tagname
+to list the images commands ----                  docker images
+to remove single imags commands ---               docker rmi imageID
+to remove at a time all images ----               docker rmi $(docker images -q) --force
+to images history and see all contents-----       docker history imagename:tagname
+to run the container docker ---                   docker run -d -p containernum:hostnum imageid (or) imagename:tagname
+to list of the  running containers ---                     docker ps
+to list of the running and stopping containers ---        docker ps -a
+to start docker contatine -------------            docker start containerid 
+
+to stop the docker contatine -----            docker stop containerid
+to remove the single containe --------       docker rm containerID
+to remove all conatiners at atime  ------  docker rm $(docker ps -q) --force (or) docker kill $(docker ps -q)
+to login the container command------    docker exec -it containerID /bin/bash (or)  docker exec -it containerID bash (or) docker exec -it 
+containerID sh
+
+
+
+
+
+
+
+
+
+
+
+
+

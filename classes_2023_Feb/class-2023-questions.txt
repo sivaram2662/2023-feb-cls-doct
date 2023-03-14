@@ -208,3 +208,6 @@ create alb, create tg, attach nginx
 A. template have a versions and we can edit templates
 lanuch configuration don't have versions and we can't edit configurations
 67. difference between static autoscaling and dynamic autoscaling
+
+
+
