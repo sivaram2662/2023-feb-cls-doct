@@ -24,3 +24,5 @@ i wanted to check one directory storage command -------- du -sh directoryname/
 i wanted to check all directory storage command -------- du -sh ./*
 
 ps aux k-pcpu | head -6 to top command perticular top 5 print
+
+i a file i want to print latest 5 lines command ----------- tail -n <number of lines> path 

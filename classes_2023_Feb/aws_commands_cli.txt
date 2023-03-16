@@ -2,4 +2,6 @@
 2. aws s3 cp s3://buckername/app.zip .  ----- s3 ro local
 3. aws sts get-caller-identity
 4. aws configure --profile account2
-aws s3 ls --profile a2
+5. aws s3 ls -- to list s3 bucketname
+6. aw s3 ls s3://bucket_name/ ----in bucket content or not to check the command 
+
