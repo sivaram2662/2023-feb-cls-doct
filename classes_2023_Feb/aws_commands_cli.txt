@@ -1,3 +1,134 @@
+Linux-commands
+==============
+1) date -----to diplay for the date and time 
+2) date +%d-%m-%y --to diplay for one date-month-year
+3) cal ----to display for the this month 
+4) cal -3 ---to display for the previous months and this month and next months 
+5) uptime ---to check the server created time 
+6) uname -a ---to display for the whis os and time content will display for that.
+7) touch ---to create a empty file 
+8) touch > {file name} ---to  create the file at a time to add the content.
+9) touch -n {filename} -----To inside the file what the content to display for the orderwise.
+10)touch file{1..100}.txt----at a time mutiple empty file created.
+11) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. aws s3 cp app.zip s3://bucketname/app.zip ------ local to s3
 2. aws s3 cp s3://buckername/app.zip .  ----- s3 ro local
 3. aws sts get-caller-identity

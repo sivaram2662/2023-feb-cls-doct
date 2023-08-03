@@ -1,0 +1,19 @@
+                                         Git commands
+======================================================================================================================
+1) Git config --global user.name "name" ----get and set configuration files.
+
+2) Git config --global user.email "mail_id" --to set up the mail id configuration files.
+
+3) Git init -----To create empty git repository.
+
+4) Git add -----To add the Files in staging area.
+
+5) Git add * ----To add the all files in staging area.
+
+6) Git commit -m "message" ---- TO record the files permanently in the version history with a message.
+
+7) git status --- Display for the working directory and staging area.
+
+8) git show ----It will be show for the all objects.
+
+9) 

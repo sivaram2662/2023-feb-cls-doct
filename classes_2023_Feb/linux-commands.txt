@@ -1,3 +1,197 @@
+
+                      Linux 
+==================================================
+1) Linux is Kernal is not os 
+
+2) Linux is not a unix derivative. It was writen from scratch.
+
+3) Linux distribution is the linux kernal and a collection of software that together.create an os.
+
+                    Linux Feature
+===========================================================================
+
+1) Open Source 
+
+2) Secure
+
+3) Light Weight 
+
+4) Multiuser-Multi task
+
+5) Multiple distribution -Redhat,Debian,Fedora
+
+        File System
+==============================
+
+1) /home ----Home directory for other users
+
+2) /root -----Home directory for root users
+
+3) /boot -----its contains bootable files for linux.
+
+4) /etc ------its containes all configuration files.
+
+5) /usr  ------By default software are installed in this directory.
+
+6) /opt -------Optional application software installed packages.
+
+7) /bin --------It containes commands used by the all users.
+
+8) /sbin -------It containes commands used by the only root users.
+
+9) /dev  -----Essential devices files,Include terminal devices.
+
+
+                Commands
+=========================================
+
+1) how to create a file ?
+
+   cat >text.txt ----to save file ctrl+d To create and add the content 
+   also at a time.
+   cat -n <file_name> ----to display for the inside the content orderwise
+   cat file {1..10}.txt --at a time multiple empty file created.
+   touch ------to create the empty file 
+   vi/vim
+          thsi is two commands editor purpose and content also save itat a time possible.   
+   nano
+
+2) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ssh -- 22
 httpd -- 80
 netstat -anlp | grep 22  ------- with in server we will check port is listening or not
@@ -26,3 +220,4 @@ i wanted to check all directory storage command -------- du -sh ./*
 ps aux k-pcpu | head -6 to top command perticular top 5 print
 
 i a file i want to print latest 5 lines command ----------- tail -n <number of lines> path 
+
