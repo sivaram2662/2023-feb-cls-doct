@@ -1,19 +1,199 @@
+                                        
+what is git ?
+Git is a version control system used for tracking changes in computer files. It is generally used for source code management in software development. Git is used to tracking changes in the source code. The distributed version control tool is used for source code management. 
+
+
+Git is a tool that is used for code management.it is a free and open source tool.
+
+                                          Git life cycle 
+                                        ===================                                      
+non working area         working dir            staging area            local repo              remote repo                                
+                                                                             
+Git --version ====2.38
+
+To edit the git files --- [command : gedit <file name>]
                                          Git commands
 ======================================================================================================================
+
+ignoring files
+==============
+ Specify intentionally untracked files that git shoud ignore.
+ .gitignore
+
+List the ignored files:
+
+configaration files=
+=====================
 1) Git config --global user.name "name" ----get and set configuration files.
 
 2) Git config --global user.email "mail_id" --to set up the mail id configuration files.
 
-3) Git init -----To create empty git repository.
+starting the commands
+=====================
 
-4) Git add -----To add the Files in staging area.
+3) Git init -----To create empty git repository in your local generate the .git floder.
 
-5) Git add * ----To add the all files in staging area.
+4) git clone ---- existing remote repository to copy the local repository.
 
-6) Git commit -m "message" ---- TO record the files permanently in the version history with a message.
+Local changes
+==============
 
-7) git status --- Display for the working directory and staging area.
+5) Git add <file_name> -----To add single File in staging area.
 
-8) git show ----It will be show for the all objects.
+6) Git add . ----To add the all files in staging area.
 
-9) 
+7) Git commit -m "message" ---- TO record the files permanently in the version history with a message.
+                                                     (or)
+                           ---- Records the changes made to the files to local repository. it will be     generated to the unique commit id.
+Track changes
+==============
+
+8) git status --- Display for the working directory and staging area.
+              ----this command returns to the currents stage of the repository
+
+9) git show ----It will be show for the all objects.
+
+Commit history
+==============
+
+10) git log ----Display of most recent commits of the status.
+
+11) git log --oneline --Display of the single commit 
+
+12) git log --stat ---Display the files that have been modified.
+
+13) git log -p ----Diplay of the modifiled files which location.
+
+
+Branching
+=========
+
+14) git branch --check our current branch
+
+15) git branch --list --- to check the list of branch 
+ 
+16) git branch -d <branch_name>  --to delete the particuler branch.
+
+17) git checkout -b <branch_name> ---automatically to create new branch and to shift the branch.
+
+18) git branch <branch_name> ---just to create the only new branch.
+
+19) git stash ---switching the branches without commiting the current branche.
+
+20) git stash list ---check the stored stash
+
+21) git stash apply --re-apply the changes that you just stashed.
+
+Merging
+=======
+22) git merge <branch _name> --- One branch to another branch integrate branches together.
+
+23) git remote --- To connect to the local repository to remote repository.
+
+
+24) git pull ---any changes to the remote repository to get commites in local repository used this command.                          (or)
+              pull the change from the remote repository to local repository.
+
+25) git push ---push all commits from your local repository to remote repository.
+
+26 ) git featch 
+
+undo changes
+============
+26) git revert ---undo the changes
+
+27) git revert <commit-id> ---to revert the particulat commit.
+
+28) git reset --hard    resert the changes.
+    git reset --soft 
+    git reset --mixed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. git init: Initializes a new Git repository.
+
+2. git clone: Creates a copy of an existing Git repository.
+
+3. git add: Adds changes to the staging area.
+
+4. git commit: Commits changes to the repository.
+
+5. git status: Shows the status of the repository.
+
+6. git log: Shows the commit history of the repository.
+
+7. git branch: Lists or creates branches.
+
+8. git checkout: Switches to a different branch or commit.
+
+9. git merge: Merges changes from one branch into another.
+
+10. git remote: Manages remote repositories.
+
+11. git push: Pushes changes to a remote repository.
+
+12. git pull: Fetches changes from a remote repository and merges them into the local repository.
+
+13. git fetch: Fetches changes from a remote repository.
+
+14. git reset: Resets the repository to a previous state.
+
+15. git revert: Reverts a commit.
+
+16. git stash: Stashes changes to be applied later.
+
+17. git tag: Creates a tag for a specific commit.
+
+18. git diff: Shows the differences between two commits or branches.
+
+19. git blame: Shows who last modified each line of a file.
+
+20. git show: Shows information about a specific commit.
+
+21. git grep: Searches for a pattern in the repository.
+
+22. git config: Configures Git settings.
+
+23. git rm: Removes files from the repository.
+
+24. git mv: Moves or renames files in the repository.
+
+25. git archive: Creates an archive of the repository.
+
+26. git bisect: Helps find the commit that introduced a bug.
+
+27. git cherry-pick: Applies a specific commit to the current branch.
+
+28. git rebase: Reapplies commits on top of another branch.
+
+29. git submodule: Manages submodules within the repository.
+
+30. git log --graph: Shows the commit history of the repository as a graph.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

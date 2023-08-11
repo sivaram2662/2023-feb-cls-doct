@@ -7,7 +7,7 @@
 
 3) Linux distribution is the linux kernal and a collection of software that together.create an os.
 
-                    Linux Feature
+                         Linux Feature
 ===========================================================================
 
 1) Open Source 
@@ -53,10 +53,10 @@
    cat file {1..10}.txt --at a time multiple empty file created.
    touch ------to create the empty file 
    vi/vim
-          thsi is two commands editor purpose and content also save itat a time possible.   
+          this is two commands editor purpose and content also save it at a time possible.   
    nano
 
-2) 
+  cat command is one of the most universial tools.yet all it does is 
 
 
 

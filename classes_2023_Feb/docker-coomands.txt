@@ -1,5 +1,5 @@
 ======================================================================================================================
-    PURPOSE                                           COMMANDS
+    PURPOSE                                            COMMANDS
 ======================================================================================================================
 DOCKER IMAGES COMMANDS:
 =======================
@@ -33,6 +33,7 @@ to remove the single containe ------------------------docker rm containerID
 to remove all conatiners at atime  -------------------docker rm $(docker ps -q) --force (or) docker kill $(docker ps -q)
 to login the container command------------------------docker exec -it containerID /bin/bash (or)  docker exec -it containerID bash (or) docker exec -it 
 containerID sh
+
  WORKIN ON Docker volume commands
 =================================
 to create the docker volume command ------------------docker volume create <name>
@@ -42,10 +43,9 @@ to delete the single volume command-------------------docker volume rm <volume n
 to at a time all volume remove command ---------------docker volume purne
 i want to mount to the docker volume in container --- docker run -it --name=<example> --mount source data,destination=/data os name
 
-
-
 Static component =-----Image[Template]
 Running component=-----container
+
 
 To write the Dockerfile steps:
 ===============================
