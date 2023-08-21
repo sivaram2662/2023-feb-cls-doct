@@ -1,3 +1,48 @@
+Laptop Tools Installation
+==========================
+1) kubectl
+2) helm
+3) aws
+4) Terraform
+5) git
+6) Docker
+7) vs code 
+8) python
+9) db client 
+10) ssh client (Gitbash)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. aws cli
 2. packer(to create golden ami using packer tool)
 3. git bash
@@ -7,3 +52,6 @@ cloudwatch(paid)
 grafana(opensource)
 datadog(paid)
 appdynamic(paid)
+
+
+====================================

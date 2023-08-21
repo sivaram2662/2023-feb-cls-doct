@@ -1,0 +1,68 @@
+Installation process crontab (or) cronie in ec2 server
+-=====================================================
+yum install cronie
+systemctl status crond
+
+------>If you want to automate any task we can use cron job. if application is runnning on linux sever you want restart if we can crate the cron job ,which helps you to restart application on particular time.
+
+------> Secudule jobs to run periodically at fixed time, day,dates,or intervals.
+
+TO create cronjob we have to use cortab-commands:
+                             Crontab
+===============================================================
+Crontab - l -----list the job for current user
+Crontab - e -----edit the job for current user
+Crontab - r -----Remove the  job for current user
+Crontab - e -u ----- <Username>
+
+default path --------/etc/crontab 
+
+
+*        *        *                *          *
+minute   hour     Day of month     month      day of week
+
+
+ # For details see man 4 crontabs
+.---------------- minute (0 - 59) 
+|  .------------- hour (0 - 23)
+|  |  .---------- day of month (1 - 31)
+|  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ... 
+|  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7)  OR sun,mon,tue,wed,thu,fri,sat 
+|  |  |  |  |
+*  *  *  *  *  command to be executed
+
+
+
+* * * * * - Every mintes
+0 * * * * - every hour 0th minites 
+0 12 * * * -- at 12 (noon)  every day 
+0 3 * * * 0 ---Every sunday 
+*/5 * * * * --- Every 5 mintes interval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -u <user>  define user
+ -e         edit user's crontab
+ -l         list user's crontab
+ -r         delete user's crontab
+ -i         prompt before deleting
+ -n <host>  set host in cluster to run users' crontabs
+ -c         get host in cluster to run users' crontabs
+ -T <file>  test a crontab file syntax
+ -s         selinux context
+ -V         print version and exit
+ -x <mask>  enable debugging
