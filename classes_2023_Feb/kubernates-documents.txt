@@ -72,9 +72,9 @@ kubernetes objects
 
 3)storage objects
 =================
-1) Persistent Volumes 
+1) Persistent Volumes :
 
-2) Persistent Volumes Claims
+2) Persistent Volumes Claims :
 
 4)properties obejects
 ===================
@@ -112,7 +112,6 @@ what is mean by cold Deployment ?
 
 what is mean by Blue-green deployment?
     Blue is live and green is up comming version .Base on Feedback the Green will more to live.the after it called Blue any change is comming in front it morre it green.
-
 
 
 

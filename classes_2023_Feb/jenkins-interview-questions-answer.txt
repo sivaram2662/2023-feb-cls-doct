@@ -1,0 +1,104 @@
+
+JENKINS
+============
+1) What are the stages in Jenkins ?
+2) Jenkins master slave configuration
+3) What is cicd flow ?
+4) Please write a Jenkins file?
+5) Difference Between scripted pipeline & Declarative pipeline
+6) difference declarative and scripted pipeline?
+7) Difference b/w master and slave in Jenkins
+8) I have a jenkins machine. How to integrate Jenkins to kubernetes?
+9) write the jenkins pipeline
+10)How do u configure master slave configuration
+11)Plug-ins used in Jenkins
+12)How to take backup of Jenkins machine
+13)Explain the CICD process
+14)how do you call the variables in pipeline
+15)how do you pass the secret in jenkins pipeline
+16) PING threat in jenkins?
+17) How to transfer the console log for a particular jenkins build?
+18) CI achieved using jenkins?
+19) What is the CICD pipeline?
+20) Diff types of Pipeline?
+21) How to set up Jenkins' job? Steps to have a Jenkins job?
+22) Most useful plugin jenkins?
+23) How can you integrate jenkins with kubernetes?
+24) Can we monitor jenkins using common monitoring tools
+25) Tell me the cicd flow?
+26) How can you trigger a job in jenkins?
+27) What is a webhook in jenkins?
+28) Which server is used for deployment applications in jenkins?
+29) If we want to deploy app ec2-to jenkins how do you configure it?
+30) Do you have a cicd deployment code deploy and code pipeline?
+31) What kind of automation do you have to do in jenkins?
+32) define continuous integration and continuous deployment, continuous delivery
+33) What are the cicd strategies?
+34) Do you work in a prod Environment?
+35) In your Organization how to deploy applications? any automation (or) manual?
+36) explain your environment cicd flow
+37)why we are using jenkins and explain jenkins pipeline
+38)If we have two environments, suppose 1.test 2.prod how you are maintaining
+these two environments in the same aws account or another aws account and
+why ?
+39) What is the difference between continuous delivery and deployment?
+40) cicd ?
+41) What is the Jenkins pipeline?
+42) Tell me how you create a Jenkins job and explain step by step?
+43)How do you check code quality?
+44) Different between scripted pipeline and declarative pipeline?
+45) explain your environment cicd flow
+46) What type of pipeline is used in your environment?
+47) write jenkins file
+48) Explain the jenkins architecture?
+49) write a scripted pipeline
+50) how to trigger jenkins once u have changed the port from 8080 to 8081?
+51) Why do we use master-slave architecture?
+52) Most useful plugin jenkins?
+53) authentication techniques of jenkins
+54) Did you write the Jenkins pipeline?
+55) What is the purpose of /etc/passwd?
+56) where you can store your password file?
+57) what happen if we delete that password file
+58) Plugins used in Jenkins.
+59) How are you using sonarqube?
+60)Can you explain the cicd pipeline?
+61)What kind of pipeline are you following?
+62) What is the difference between a declarative pipeline and a scripted pipeline?
+63) What is a multibranch pipeline?
+64) How do you manage the pipeline?
+65) Write a declarative pipeline with 5 stages?
+66)What is elastic trans coders??
+67)How do you manage secrets in jenkins ??
+68)explain about jenkins and pipline's
+69)how will you interact with java and pythan by jenkins.?
+70)diff between scripted and declarative pipeline.?
+71)how will you integrate with sonarqube in jenkins.?
+72)write jenkins file?
+73)explain your environment cicd flow?
+74)How to restrict the jobs in Jenkins for different users?
+75)Explain Jenkins pipeline code for deploying docker container?
+76)What are the steps and what actions you will take to upgrade Jenkins in production?
+77)How to take backup in Jenkins?
+78)Where you are storing credentials in Jenkins?
+79)If I forgot admin password for Jenkins how would you resolve this?
+80)Jenkins is not in running state how would you troubleshoot explain the flow with commands?
+81).Explain CICD flow in Jenkins?
+82)How to setup jenkins job? steps to have jenkins job? 
+83)Most some useful plugin jenkins?
+84) difference between declarative and scripted pipeline?
+85)if i build one of job,  its in hanging how can u resolve it?
+86)Tell me the Jenkins CICD flow
+87)Write the Jenkins pipeline code
+88))what are the package  build Jenkins ?
+89)Tell me the CICD pipeline flow from scratch?
+90)How to configure SonarQube into the Jenkins pipeline?
+91)CICD Process Detail explanation?
+92)What Jenkins Variables You guys are using?
+93)Difference you had seen between Jenkins and gitlab ?
+94)How can we auto trigger pipelines in both the tools ? 
+95) I've only one branch how will you write pipeline? 
+96)Have you used any tags in jenkins?
+97) How many ways Can you trigger a job? 
+98) Have you done any Automation Script Other Than Pipeline? 
+99)Post Build Actions In Jenkins?
